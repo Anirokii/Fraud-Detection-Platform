@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: fraud-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: fraud-detection.local
+    http:
+      paths:
+      - path: /api
+        pathType: Prefix
+        backend:
+          service:
+            name: fraud-api-service
+            port:
+              number: 8000
+      - path: /neo4j
+        pathType: Prefix
+        backend:
+          service:
+            name: neo4j-service
+            port:
+              number: 7474
