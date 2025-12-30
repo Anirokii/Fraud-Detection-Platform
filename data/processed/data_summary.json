@@ -1,9 +1,0 @@
-{
-  "total_transactions": 1296675,
-  "fraud_transactions": 7506,
-  "fraud_rate": 0.005788651743883394,
-  "avg_amount": 70.35103545607032,
-  "avg_fraud_amount": 531.3200919264589,
-  "unique_merchants": 693,
-  "unique_categories": 14
-}
