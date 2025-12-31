@@ -433,9 +433,8 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 ## 📧 **Contact**
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@Anirokii](https://github.com/Anirokii)
+- LinkedIn: [Mohamed Ali Chaabane](https://www.linkedin.com/in/mohamed-ali-chaabane/)
 
 ---
 
